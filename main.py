@@ -24,7 +24,7 @@ template = """
 
     YOUR RESPONSE:
 """
-
+OPENAI_API_KEY="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"
 
 prompt = PromptTemplate(
     input_variables=["tone", "dialect", "email"],
